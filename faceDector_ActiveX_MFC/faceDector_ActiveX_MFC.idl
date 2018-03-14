@@ -1,0 +1,56 @@
+// faceDector_ActiveX_MFC.idl : ActiveX 控件项目的类型库源。
+
+// 此文件将由 MIDL 编译器工具处理以
+// 产生类型库(faceDector_ActiveX_MFC.tlb)，该类型库将成为
+// faceDector_ActiveX_MFC.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(A2932C81-9892-45F5-8A00-DA13DCF5DCFA), version(1.0),
+  control ]
+library faceDector_ActiveX_MFCLib
+{
+	importlib(STDOLE_TLB);
+
+	//  CfaceDector_ActiveX_MFCCtrl 的主调度接口
+	[ 
+		uuid(4E768596-5D72-456B-B733-F3B2A773ED13)	
+	]
+	dispinterface _DfaceDector_ActiveX_MFC
+	{
+		properties:
+		methods:
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+			[id(1)] void faceDector();
+			[id(2)] void openVideo();
+			[id(3)] void closeVideo();
+			[id(4)] void openDector();
+			[id(5)] void closeDector();
+	};
+
+	//  CfaceDector_ActiveX_MFCCtrl 的事件调度接口
+
+	[ 
+		uuid(1976A8FC-C305-490B-8898-47B383F6D4EA)	
+	]
+	dispinterface _DfaceDector_ActiveX_MFCEvents
+	{
+		properties:
+			//  事件接口没有任何属性
+
+		methods:
+	};
+
+	//  CfaceDector_ActiveX_MFCCtrl 的类信息
+	[
+		uuid(55D061FF-0628-4E76-927A-70CB353FDF8F)
+	]
+	coclass faceDector_ActiveX_MFC
+	{
+		[default] dispinterface _DfaceDector_ActiveX_MFC;
+		[default, source] dispinterface _DfaceDector_ActiveX_MFCEvents;
+	};
+
+};

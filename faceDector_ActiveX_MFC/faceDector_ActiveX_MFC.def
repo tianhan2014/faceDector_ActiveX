@@ -1,0 +1,7 @@
+; faceDector_ActiveX_MFC.def : 声明模块参数。
+
+EXPORTS
+	DllCanUnloadNow     PRIVATE
+	DllGetClassObject   PRIVATE
+	DllRegisterServer   PRIVATE
+	DllUnregisterServer PRIVATE

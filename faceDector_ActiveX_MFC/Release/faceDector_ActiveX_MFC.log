@@ -1,0 +1,44 @@
+﻿  Processing .\faceDector_ActiveX_MFC.idl
+  faceDector_ActiveX_MFC.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\oaidl.idl
+  oaidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\objidl.idl
+  objidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\unknwn.idl
+  unknwn.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.idl
+  wtypes.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypesbase.idl
+  wtypesbase.idl
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h
+  basetsd.h
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\shared\guiddef.h
+  guiddef.h
+  Processing C:\Program Files (x86)\Windows Kits\8.1\Include\um\oaidl.acf
+  oaidl.acf
+  stdafx.cpp
+  CvvImage.cpp
+  faceDector_ActiveX_MFC.cpp
+  faceDector_ActiveX_MFCCtrl.cpp
+g:\ai\openblas\common.h(73): warning C4005: “OS_WINDOWS”: 宏重定义
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\shlwapi.h(2024): note: 参见“OS_WINDOWS”的前一个定义
+  faceDector_ActiveX_MFCPropPage.cpp
+  MyDlg.cpp
+g:\ai\openblas\common.h(73): warning C4005: “OS_WINDOWS”: 宏重定义
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\shlwapi.h(2024): note: 参见“OS_WINDOWS”的前一个定义
+MyDlg.cpp(195): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+MyDlg.cpp(196): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+MyDlg.cpp(197): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+MyDlg.cpp(198): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+MyDlg.cpp(211): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+MyDlg.cpp(212): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+MyDlg.cpp(213): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+MyDlg.cpp(214): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+    正在创建库 G:\工作空间\faceDector_ActiveX_MFC\Release\faceDector_ActiveX_MFC.lib 和对象 G:\工作空间\faceDector_ActiveX_MFC\Release\faceDector_ActiveX_MFC.exp
+  正在生成代码
+  All 277 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  faceDector_ActiveX_MFC.vcxproj -> G:\工作空间\faceDector_ActiveX_MFC\Release\faceDector_ActiveX_MFC.ocx
+  faceDector_ActiveX_MFC.vcxproj -> G:\工作空间\faceDector_ActiveX_MFC\Release\faceDector_ActiveX_MFC.pdb (Full PDB)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(1749,5): warning MSB3075: 命令“regsvr32 /s "G:\工作空间\faceDector_ActiveX_MFC\Release\faceDector_ActiveX_MFC.ocx"”已退出，代码为 5。请验证您是否有足够的权限来运行此命令。
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(1761,5): error MSB8011: Failed to register output. Please try enabling Per-user Redirection or register the component from a command prompt with elevated permissions.
