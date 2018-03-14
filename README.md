@@ -1,0 +1,3 @@
+# faceDector_ActiveX
+基于mtcnn-light的人脸识别IE ActiveX插件 VS2015版
+暂时不会用CMake只能把自己的工程代码全部上传，如若使用请修改工程配置
